@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l [:digit:] id -u .*
+ls -l -n -a
