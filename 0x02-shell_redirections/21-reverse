@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "Evans is my name!" | rev
