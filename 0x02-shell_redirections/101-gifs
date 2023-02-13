@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type f -name "*.gif" -print0 | xargs -0 stat --format "%s %n" | sort -k1,1n -k2,2 | awk '{sub(/\.[^.]*$/,"",$2); print $2}' | awk '{printf("%s\n", $0)}'
