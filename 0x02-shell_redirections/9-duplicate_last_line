@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "&(tail -n 1 octa)\n&(tail -n 1 octa) >> octa
+tail -n 1 iacta >> iacta
